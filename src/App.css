@@ -17,6 +17,12 @@
   object-fit: cover;
   margin-top: 1rem;
   border-radius: 10px;
+
+  @media(max-width: 440px) {
+    width: 90%;
+    height: auto;
+    aspect-ratio: 1;
+  }
 }
 
 .App button {
